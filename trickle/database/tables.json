@@ -1,0 +1,47 @@
+[
+  {
+    "name": "user",
+    "fields": [
+      {
+        "name": "username",
+        "type": "text",
+        "description": "Username for login",
+        "options": null
+      },
+      {
+        "name": "password",
+        "type": "text",
+        "description": "User password (in production should be hashed)",
+        "options": null
+      },
+      {
+        "name": "role",
+        "type": "text",
+        "description": "User role",
+        "options": [
+          "superuser",
+          "admin",
+          "user"
+        ]
+      },
+      {
+        "name": "fullName",
+        "type": "text",
+        "description": "Full name of the user",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "User email",
+        "options": null
+      },
+      {
+        "name": "avatar",
+        "type": "text",
+        "description": "User avatar URL",
+        "options": null
+      }
+    ]
+  }
+]
